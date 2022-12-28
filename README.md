@@ -1,6 +1,6 @@
 2 Python Bootcamp conducted by TinkerHub CUCEK.
 
-#Instructions to submit your project
+# Instructions to submit your project
 
 Fork this repository
 
