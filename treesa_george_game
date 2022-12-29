@@ -1,0 +1,22 @@
+# Program to play the famous classic game ROCK PAPER and SCISSORS
+
+import random
+playerA = input("Enter player's name:").upper()
+human = input("Select Rock,Paper or Scissors:").lower()
+compAI = random.choice(["Rock","Paper","Scissors"]).lower()
+print("Computer opted for:", compAI)
+
+if human == "rock" and compAI == "paper":
+    print("COMPUTER WON")
+
+elif human == "paper" and compAI == "scissors":
+    print("COMPUTER WON")
+    
+elif human == "scissor" and compAI == "rock":
+    print("COMPUTER WON")
+    
+elif human == compAI:
+    print("EQUALISER")
+    
+else:
+    print(playerA, "WON")
